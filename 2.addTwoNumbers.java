@@ -6,6 +6,10 @@
  *     ListNode(int x) { val = x; }
  * }
  */
+ /**
+ * 利用递归的思想：
+ * carry为进位标志
+ */
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         return addTwoNumbers(l1, l2, 0);
